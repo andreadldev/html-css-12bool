@@ -1,0 +1,19 @@
+@import "reset.css";
+@import "grid.css";
+
+section {
+    margin-bottom: 30px;
+}
+
+[class^="box"] {
+    background-color: #006cfa;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.box-nested {
+    background-color: #00e165;
+    border: 1px solid #006cfa;
+}
