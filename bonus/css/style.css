@@ -26,7 +26,14 @@ main {
 
 #display {
     background-color: #222222;
+    color: white;
     padding: 20px;
+}
+
+#display span {
+    font-size: 0.8rem;
+    position: relative;
+    top: -8px;
 }
 
 .btn {
