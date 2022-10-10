@@ -1,0 +1,56 @@
+@import "reset.css";
+@import "common.css";
+@import "grid.css";
+
+body {
+    background-color: #4f5b71;
+    height: 100vh;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+main {
+    height: 100%;
+}
+
+.container {
+    max-width: 370px;
+    margin: auto;
+    background-color: lightgray;
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#display {
+    background-color: #222222;
+    padding: 20px;
+}
+
+.btn {
+    background-color: gray;
+    color: white;
+    padding: 25px;
+    border: 1px solid #222222;
+    text-align: center;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+    user-select: none;
+}
+
+.btn:hover {
+    background-color: darkgray;
+}
+
+.btn:active {
+    box-shadow: none;
+    transform: translateY(2px);
+}
+
+#equal {
+    height: calc(200% - 10px);
+    padding: 0;
+}
